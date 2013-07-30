@@ -1,0 +1,35 @@
+/* 
+    Document   : ton_styles
+    Created on : 30/07/2013, 01:30:18
+    Author     : TonGarcia
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.icon_gh-cat {
+    width: 28px;
+    height: 23px;
+    display: inline-block;
+    background: transparent url(octocat-icon.png) -2px 50% no-repeat;
+}
+
+#btn_view_on_gh > span {
+    background: black;
+    margin: 0;
+    padding: 0;
+}
+
+.caption > h4 > span {
+    font-size: 15px;
+    font-weight: normal;
+    color: #AAA;
+}
+
+.caption > h4 {
+    border-bottom: 1px solid #EEE;
+}
+
+#btns_acoes a {
+    width: 28px;
+    height: 23px;
+}
