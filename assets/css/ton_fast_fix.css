@@ -36,3 +36,15 @@ footer {
 #about_me .caption {
     padding-bottom: 2px;
 }
+
+.thumbnail .caption {
+    padding: 0px;
+}
+
+#informacoes > ul li, #informacoes > ol li {
+    padding-left: 0;
+}
+
+ul li, ol li {
+    list-style-type: none; list-style:none;
+}

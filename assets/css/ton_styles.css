@@ -33,3 +33,42 @@
     width: 28px;
     height: 23px;
 }
+
+#informacoes > ul, #informacoes > ol {
+    margin: 10px 0;
+}
+
+#informacoes > ul > li, #informacoes > ol > li {
+    margin-bottom: 5px;
+}
+
+
+[class^="ton_icon-"], [class*=" ton_icon-"] {
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    color: #000;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+}
+
+#informacoes ul li {
+    list-style-type: none; list-style:none;
+}
+
+.ton_icon-code {
+    background-image: url("github-icones/liguagens_code_icon.png");
+}
+
+.ton_icon-social {
+    background-image: url("github-icones/nick_social_icon.png");
+}
+
+.ton_icon-localizacao {
+    background-image: url("github-icones/localizacao_icon.png");
+}
+
+.ton_icon-email {
+    margin-top: 3px; 
+    background-image: url("github-icones/email_icon.png");
+}
