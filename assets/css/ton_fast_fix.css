@@ -56,3 +56,7 @@ ul li, ol li {
 h5 > i {
     margin-top: -2px;
 }
+
+.btn-group .btn-inverse {
+    border-color: rgba(0,0,0,0.1) #474747 rgba(0,0,0,0.25);
+}
