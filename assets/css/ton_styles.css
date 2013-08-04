@@ -103,3 +103,15 @@
 .header_graduacao {
     margin-bottom: 15px;
 }
+
+#btns_nav_formacao .btn {
+    width: 234px;
+}
+
+.formacao_content {
+    margin-top: 15px;
+}
+
+#graduacao_unb {
+    margin-left: 38px;
+}
