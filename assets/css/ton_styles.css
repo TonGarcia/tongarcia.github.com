@@ -72,3 +72,7 @@
     margin-top: 3px; 
     background-image: url("github-icones/email_icon.png");
 }
+
+.alert-success {
+    background: #D0F5C0;
+}
