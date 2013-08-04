@@ -52,3 +52,7 @@ ul li, ol li {
 .alert {
     padding: 8px 8px 8px 14px;
 }
+
+h5 > i {
+    margin-top: -2px;
+}
