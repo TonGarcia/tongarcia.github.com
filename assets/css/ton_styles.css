@@ -73,6 +73,16 @@
     background-image: url("github-icones/email_icon.png");
 }
 
+.ton_icon-logo_ucb {
+    width: 27px;
+    background-image: url("logos/ucb_logo.png");
+}
+
+.ton_icon-logo_unb {
+    width: 36px;
+    background-image: url("logos/unb_logo.jpeg");
+}
+
 .alert-success {
     background: #D0F5C0;
     border-color: #3ad23d;
