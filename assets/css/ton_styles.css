@@ -99,3 +99,7 @@
 .alert-info .header_graduacao {
     border-bottom: 1px solid #a2e5df;
 }
+
+.header_graduacao {
+    margin-bottom: 15px;
+}
