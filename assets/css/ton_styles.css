@@ -75,4 +75,17 @@
 
 .alert-success {
     background: #D0F5C0;
+    border-color: #3ad23d;
+}
+
+.alert-info {
+    border-color: #06d5ff;
+}
+
+.alert-success .header_graduacao {
+    border-bottom: 1px solid #a0d4a1;
+}
+
+.alert-info .header_graduacao {
+    border-bottom: 1px solid #a2e5df;
 }
