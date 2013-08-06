@@ -15,5 +15,5 @@ $(btns_group).click(function(){
     var id_content = id_btn.substring(id_btn.indexOf("_")+1, id_btn.length);
     
     var content_ref = $("#"+id_content);
-    content_ref.fadeIn(325, function() {	/* Animation complete */	});
+    content_ref.fadeIn(500, function() {	/* Animation complete */	});
 });
