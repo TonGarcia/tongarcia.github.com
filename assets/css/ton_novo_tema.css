@@ -93,7 +93,7 @@
 
 #content_nav_list { 
 	float: right; 
-	margin-right: 5px; 
+	margin-right: 25px; 
 }
 
 div > .progress {
@@ -116,16 +116,8 @@ div > .progress {
     opacity: .5;
 }
 
-#content_textos {
+#texto_corrido_ajax {
     height: 460px;
     overflow: scroll;
+    overflow-x: hidden;
 }
-
-/*
-div.fixed {
-    position: fixed;
-}
-
-#content_nav_list { 
-    margin-left: 81%;   
-}*/
