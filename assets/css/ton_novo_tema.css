@@ -1,0 +1,131 @@
+.icon_gh-cat {
+    width: 28px;
+    height: 23px;
+    display: inline-block;
+    background: transparent url(octocat-icon.png) -2px 50% no-repeat;
+}
+
+[class^="ton_icon-"], [class*=" ton_icon-"] {
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    color: #000;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+}
+
+.ton_icon-code {
+    background-image: url("github-icones/liguagens_code_icon.png");
+}
+
+.ton_icon-social {
+    background-image: url("github-icones/nick_social_icon.png");
+}
+
+.ton_icon-localizacao {
+    background-image: url("github-icones/localizacao_icon.png");
+}
+
+.ton_icon-email {
+    margin-top: 3px; 
+    background-image: url("github-icones/email_icon.png");
+}
+
+.ton_icon-logo_ucb {
+    width: 27px;
+    background-image: url("logos/ucb_logo.png");
+}
+
+.ton_icon-logo_unb {
+    width: 36px;
+    background-image: url("logos/unb_logo.jpeg");
+}
+
+.alert-success {
+    background: #D0F5C0;
+    border-color: #3ad23d;
+}
+
+.alert-info {
+    border-color: #06d5ff;
+}
+
+.alert-success .header_graduacao {
+    border-bottom: 1px solid #a0d4a1;
+}
+
+.alert-info .header_graduacao {
+    border-bottom: 1px solid #a2e5df;
+}
+
+.header_graduacao {
+    margin-bottom: 15px;
+}
+
+.caption > h4 > span {
+    font-size: 15px;
+    font-weight: normal;
+    color: #AAA;
+}
+
+.caption > h4 {
+    border-bottom: 1px solid #EEE;
+}
+
+#btns_acoes a {
+    width: 28px;
+    height: 23px;
+}
+
+#informacoes > ul, #informacoes > ol {
+    margin: 10px 0;
+}
+
+/** FIM DO REAPROVEITAMENTO DO LAYOUT ANTIGO (O MEU) **/ 
+
+#content_about_me {  
+
+}
+
+#content_textos { 
+
+}
+
+#content_nav_list { 
+	float: right; 
+	margin-right: 5px; 
+}
+
+div > .progress {
+	margin-top: 25%;
+	height: 42px;
+}
+
+.nav-tabs a, .nav-stacked a {
+    background: #efefff;
+    text-align: right;
+}
+
+.nav-tabs a i, .nav-stacked a i {
+    float: left;
+    opacity: .25;
+}
+
+.nav-tabs a:hover i, .nav-stacked a:hover i {
+    float: left;
+    opacity: .5;
+}
+
+#content_textos {
+    height: 460px;
+    overflow: scroll;
+}
+
+/*
+div.fixed {
+    position: fixed;
+}
+
+#content_nav_list { 
+    margin-left: 81%;   
+}*/

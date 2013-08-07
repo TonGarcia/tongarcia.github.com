@@ -9,9 +9,9 @@
 /** Parte do tema **/
 @import url("../stylesheets/stylesheet.css");
 
-/** Bootstrap e meus **/
+/** Bootstrap **/
 @import url("css/bootstrap/css/bootstrap.min.css");
+
+/** Meus CSS **/
 @import url("css/ton_fast_fix.css");
-@import url("css/ton_styles.css");
-
-
+@import url("css/ton_novo_tema.css");
