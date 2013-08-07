@@ -17,3 +17,8 @@ $(btns_group).click(function(){
     var content_ref = $("#"+id_content);
     content_ref.fadeIn(500, function() {	/* Animation complete */	});
 });
+
+//Definição dos popovers do Bootstrap
+$(function (){ 
+    $(".lancador_popover").popover({ trigger: "hover" });
+});
