@@ -12,14 +12,6 @@ var str_ajax_resps_experiencias_dir = str_ajax_resps_dir+"container_experiencias
 var str_ajax_resps_projetos_dir = str_ajax_resps_dir+"container_projetos/projetos.html";
 var str_ajax_resps_todos_dir = str_ajax_resps_dir+"container_todos/todos.html";
 
-//Seletores das divs de conteúdo das abas
-/*
-var str_sel_tabFormacao = "#tabFormacao";
-var str_sel_tabExperiencias = "#tabExperiencias";
-var str_sel_tabProjetos = "#tabProjetos";
-var str_sel_tabTODOs = "#tabTODOs";
-*/
-
 //Seletores dos containers
 var str_sel_about_me = "#content_about_me";
 var str_sel_texto_rolagem = "#content_textos";
