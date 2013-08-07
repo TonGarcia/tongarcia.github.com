@@ -112,6 +112,11 @@
     margin-top: 15px;
 }
 
-#graduacao_unb {
+.elemento_1_contents_formacao {
     margin-left: 38px;
+}
+
+#idiomas > button > img {
+    width: 64px;
+    height: 64px;
 }
