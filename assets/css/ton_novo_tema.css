@@ -121,3 +121,20 @@ div > .progress {
     overflow: scroll;
     overflow-x: hidden;
 }
+
+.nav-tabs .active {
+    font-weight: bold;
+}
+
+.nav-tabs .active i {
+    opacity: 1;
+}
+
+#texto_corrido_ajax h3 {
+    border-bottom: 1px solid #dfcfdf;
+    width: 655px;
+}
+
+#texto_corrido_ajax > div {
+    min-height: 455px;
+}
