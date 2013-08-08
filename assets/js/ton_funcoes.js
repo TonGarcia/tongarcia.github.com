@@ -22,10 +22,10 @@ function load_aboutMe() {
 }
 
 function load_navList() {
-    ajax_get(str_ajax_resps_navList, str_sel_nav_list);   
+    ajax_get(str_ajax_resps_navList, str_sel_nav_list);
 }
 
 function load_textoCorrido() {
-    ajax_get(str_ajax_resps_construtorTextoCorrido, str_sel_texto_rolagem);   
+    ajax_get(str_ajax_resps_construtorTextoCorrido, str_sel_texto_rolagem);
 }
 
