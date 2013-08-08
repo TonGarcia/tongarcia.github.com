@@ -1,0 +1,68 @@
+/** Hot fixes **/
+#about_me {
+    background: white;
+}
+
+.thumbnail .caption {
+    padding: 0px;
+}
+
+#btns_acoes > a {
+    padding-bottom: 0px;
+    padding-top: 4px;
+}
+
+#informacoes > ul, #informacoes > ol {
+    margin: 10px 0 5px 0;
+}
+
+#informacoes li {
+	margin-bottom: 5px;
+} 
+
+#linguagens_projs {
+	font-size: 11px;
+}
+
+#linguagens_projs i {
+	margin-right: 3px;
+}
+
+/** Estilo do nick **/
+.caption > h4 > span {
+    font-size: 15px;
+    font-weight: bold;
+    color: #AAA;
+}
+
+/** Borda sob o nick **/
+.caption > h4 {
+    border-bottom: 1px solid #EEE;
+}
+
+
+/** definição das classes com os icones da parte "sobremim" **/
+.icon_gh-cat {
+    width: 28px;
+    height: 23px;
+    display: inline-block;
+    background: transparent url(octocat-icon.png) -2px 50% no-repeat;
+}
+
+
+.ton_icon-code {
+    background-image: url("github-icones/liguagens_code_icon.png");
+}
+
+.ton_icon-social {
+    background-image: url("github-icones/nick_social_icon.png");
+}
+
+.ton_icon-localizacao {
+    background-image: url("github-icones/localizacao_icon.png");
+}
+
+.ton_icon-email {
+    margin-top: 3px; 
+    background-image: url("github-icones/email_icon.png");
+}

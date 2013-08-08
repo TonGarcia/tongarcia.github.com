@@ -1,0 +1,64 @@
+
+#content_textos .alert {
+    padding: 8px 8px 8px 14px;
+}
+
+#content_textos .alert h5 > i {
+    margin-top: -2px;
+}
+
+.materias_cursadas {
+	margin-top: 10px;
+}
+
+.materias_cursadas > span {
+	text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/** Italico nas matérias cursadas (os links) **/
+.lista_materias_cursadas {
+    font-style: italic;
+}
+
+.lista_materias_cursadas a {
+	-webkit-transition: 0.30s ease-in all;
+    -moz-transition: 0.30s ease-in all;
+    -ms-transition: 0.30s ease-in all;
+    -o-transition: 0.30s ease-in all;
+    transition: 0.30s ease-in all;
+    font-style: italic;
+}
+
+.materias_cursadas ul {
+    margin: 5px 0 10px 0;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
+
+
+.materias_unb a {
+    color: #00bc12;
+}
+
+.materias_unb a:hover {
+    color: #049111;
+}
+
+.materias_ucb a {
+	color: #00afd5;
+}
+
+.materias_ucb a:hover {
+    color: #008ebc;	
+}
+
+.materias_unb {
+    background: #E9FAEB;
+}
+
+.materias_ucb {
+    background: #E9EFFA;
+}
+

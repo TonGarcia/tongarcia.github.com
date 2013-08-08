@@ -1,0 +1,24 @@
+/* 
+    Document   : construtor_estilos_textos_corridos
+    Created on : 08/08/2013, 17:38:15
+    Author     : tongarcia
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@import url("contribuicoes_opensource.css");
+@import url("cursos_extensao.css");
+@import url("experiencias.css");
+@import url("graduacao.css");
+@import url("idiomas.css");
+@import url("meus_opensource.css");
+
+.ton_icon-logo_ucb {
+    width: 27px;
+    background-image: url("logos/ucb_logo.png");
+}
+
+.ton_icon-logo_unb {
+    width: 36px;
+    background-image: url("logos/unb_logo.jpeg");
+}
