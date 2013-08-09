@@ -37,7 +37,7 @@
 
 /** Borda sob o nick **/
 .caption > h4 {
-    border-bottom: 1px solid #EEE;
+    border-bottom: 2px solid #EEE;
 }
 
 
@@ -65,4 +65,10 @@
 .ton_icon-email {
     margin-top: 3px; 
     background-image: url("github-icones/email_icon.png");
+}
+
+#btns_acoes a {
+    width: 28px;
+    height: 23px;
+    border: 1px solid #b5b5b5;
 }

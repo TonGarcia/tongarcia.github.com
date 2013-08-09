@@ -22,11 +22,26 @@ body {
     cursor: default;
 }
 
-[class^="ton_icon-"], [class*=" ton_icon-"] {
-    display: inline-block;
-    width: 19px;
-    height: 18px;
-    color: #000;
-    vertical-align: text-top;
-    background-repeat: no-repeat;
+div > .progress {
+    margin-top: 25%;
 }
+
+.offset1 {
+    margin-left: 90px;
+}
+
+.span9 {
+    width: 720px;
+}
+
+header {
+    padding-top: 1px;
+    padding-bottom: 10px;
+}
+
+footer {
+    margin-top: 0;
+    padding-bottom: 0;
+}
+
+

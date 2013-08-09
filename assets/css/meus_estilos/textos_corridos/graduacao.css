@@ -1,11 +1,45 @@
-
+/** REFATORAÇÃO DOS ALERTS PARA O MEU LAYOUT **/
 #content_textos .alert {
     padding: 8px 8px 8px 14px;
+}
+
+/** Refatoração no espaçamento do header **/
+#content_textos h5 span {
+    float: right;
+    margin-bottom: 5px;
 }
 
 #content_textos .alert h5 > i {
     margin-top: -2px;
 }
+
+#content_textos .alert-success {
+    background: #D0F5C0;
+    border-color: #3ad23d;
+}
+
+#content_textos .alert-info {
+    border-color: #06d5ff;
+}
+
+.alert-success .header_alerta {
+    border-bottom: 1px solid #a0d4a1;
+}
+
+.alert-info .header_alerta {
+    border-bottom: 1px solid #a2e5df;
+}
+
+.header_alerta {
+    padding-bottom: 0;
+    margin-bottom: 18px;
+}
+
+.alerta_coluna_2 {
+    margin-right: 5px;
+    float: right;
+}
+/** FIM DA REFATORAÇÃO DOS ALERTS PARA O MEU LAYOUT **/
 
 .materias_cursadas {
 	margin-top: 10px;
@@ -18,7 +52,7 @@
 }
 
 /** Italico nas matérias cursadas (os links) **/
-.lista_materias_cursadas {
+.lista_materias_cursadas a:hover {
     font-style: italic;
 }
 
@@ -28,7 +62,7 @@
     -ms-transition: 0.30s ease-in all;
     -o-transition: 0.30s ease-in all;
     transition: 0.30s ease-in all;
-    font-style: italic;
+    font-style: normal;
 }
 
 .materias_cursadas ul {

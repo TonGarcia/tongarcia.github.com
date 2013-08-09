@@ -1,4 +1,23 @@
 #content_nav_list {
 	width: 240px;
+	margin-right: 12px; 
     float: right;
+}
+
+.nav-tabs a, .nav-stacked a {
+    background: #efefff;
+    text-align: right;
+}
+
+.nav-tabs a i, .nav-stacked a i {
+    float: left;
+    opacity: .25;
+}
+
+.nav-tabs .active {
+    font-weight: bold;
+}
+
+.nav-tabs .active i {
+    opacity: 1;
 }

@@ -13,12 +13,37 @@
 @import url("idiomas.css");
 @import url("meus_opensource.css");
 
+/** Minha definição de icones **/
+[class^="ton_icon-"], [class*=" ton_icon-"] {
+    display: inline-block;
+    width: 19px;
+    height: 18px;
+    color: #000;
+    vertical-align: text-top;
+    background-repeat: no-repeat;
+}
+
 .ton_icon-logo_ucb {
     width: 27px;
-    background-image: url("logos/ucb_logo.png");
+    background-image: url("../../logos/ucb_logo.png");
 }
 
 .ton_icon-logo_unb {
-    width: 36px;
-    background-image: url("logos/unb_logo.jpeg");
+    width: 35px;
+    background-image: url("../../logos/unb_logo.jpeg");
+}
+
+#texto_corrido_ajax {
+    height: 460px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+#texto_corrido_ajax h3 {
+    border-bottom: 1px solid #dfcfdf;
+    width: 605px;
+}
+
+#texto_corrido_ajax > div {
+    min-height: 455px;
 }
