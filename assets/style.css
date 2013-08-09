@@ -44,4 +44,13 @@ footer {
     padding-bottom: 0;
 }
 
+.materias_cursadas li {
+    margin: 3px 0;
+    text-align: center;
+}
 
+/*
+.materias_cursadas li:nth-child(even) {
+    float: right;
+}
+*/

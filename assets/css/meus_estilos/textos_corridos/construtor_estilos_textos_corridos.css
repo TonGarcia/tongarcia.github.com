@@ -33,6 +33,29 @@
     background-image: url("../../logos/unb_logo.jpeg");
 }
 
+.ton_icon-logo_bradesco {
+    margin-top: -14px;
+    background-image: url("http://empresahost.com.br/imagens/icos/loja/icon-bradesco.png");
+    width: 44px;
+    height: 49px;
+}
+
+.ton_icon-logo_studioonline {
+    background-image: url("http://www.studioonline.com.br/images/logo.png");
+    background-position: 0px -25px;
+    margin-top: -11px;
+    width: 63px;
+    height: 31px;
+}
+
+.ton_icon-logo_eng {
+    background-image: url("http://www.eng.com.br/novosite/src/css/imagens/padrao/logo.png");
+    background-position: 0px 10px;
+    margin-top: -11px;
+    width: 122px;
+    height: 31px;
+}
+
 #texto_corrido_ajax {
     height: 460px;
     overflow: scroll;

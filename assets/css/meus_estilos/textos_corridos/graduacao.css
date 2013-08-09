@@ -1,5 +1,5 @@
 /** REFATORAÇÃO DOS ALERTS PARA O MEU LAYOUT **/
-#content_textos .alert {
+#content_textos .alert, #content_textos .well {
     padding: 8px 8px 8px 14px;
 }
 
@@ -22,12 +22,33 @@
     border-color: #06d5ff;
 }
 
+#content_textos .well {
+    border-color: #cbcbcb;
+}
+
+#content_textos .alert-danger {
+    border-color: #b94a48;
+}
+
 .alert-success .header_alerta {
     border-bottom: 1px solid #a0d4a1;
 }
 
 .alert-info .header_alerta {
     border-bottom: 1px solid #a2e5df;
+}
+
+.alert-danger .header_alerta {
+    padding-bottom: 0;
+    border-bottom: 1px solid #e5a2a2;
+}
+
+.well .header_alerta {
+    border-bottom: 1px solid #dee2e3;
+}
+
+.alert-danger > .header_alerta > h5 { 
+    margin-bottom: 2px;
 }
 
 .header_alerta {
@@ -95,4 +116,3 @@
 .materias_ucb {
     background: #E9EFFA;
 }
-
