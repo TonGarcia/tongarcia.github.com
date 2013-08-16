@@ -70,3 +70,7 @@
 #texto_corrido_ajax > div {
     min-height: 455px;
 }
+
+#container > .container > .offset1 {
+    margin-left: 45px;
+}
